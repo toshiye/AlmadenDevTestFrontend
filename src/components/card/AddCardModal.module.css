@@ -1,0 +1,72 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  .modalContent h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modalContent input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modalActions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modalActions button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .modalActions button:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .passwordContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .passwordContainer button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .passwordContainer button:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,91 @@
+.card {
+    background: grey;
+    color: black;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+.card:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modalActions {
+    margin-top: 20px;
+}
+
+.modalActions button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.modalActions button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.modalActions button:active {
+    transform: translateY(1px);
+}
+
+.inputField {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
