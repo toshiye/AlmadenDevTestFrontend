@@ -14,12 +14,12 @@ The coding took me 4 hours to complete and i took 2 more hours to review and man
  - After loading the application, you'll see the address to have the application running on the browser on the cli of your choice.
 
 ## Algorithm & Approach
-For the frontend i've used React on version "19.0.0-rc-66855b96-20241106" and NextJs on version 15.0.3, this project was created to also be simple and easy to understand.
+For the frontend, I used React (version 19.0.0-rc-66855b96-20241106) and Next.js (version 15.0.3). The goal of this project was to keep the implementation simple and easy to understand.
 
-In this case, i've tryied to make it simple as well, as instructed, i add the possibility to create, edit and delete cards, also add a confirmation screen before deleting and editing cards.
+To meet this requirement, I implemented features that allow users to create, edit, and delete cards. To enhance user experience, a confirmation screen appears before deleting or editing a card.
 
-For displaying cards, to use a modal coded on the Card component to open the cards and for adding new cards i decided to use a separate modal component, just to show the difference in both code styles.
+For displaying the cards, I created a Card component that renders all the cards on the screen. Within this component, I embedded a modal for viewing card details. For adding new cards, I opted for a separate modal component to demonstrate different approaches to implementing similar features.
 
-For all modals showing card information or to edit, we'll have the possibility of hide/show the password.
+All modals, whether for viewing or editing card details, include the option to show/hide passwords.
 
-Also add the possibility to filter cards simply typing one letter or sequence of letter that is part of the "name" field, the results will change as you type.
+Additionally, I added a filtering feature that allows users to search for cards by typing a single letter or sequence of letters from the name field. The results update dynamically as the user types.
